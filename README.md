@@ -14,7 +14,8 @@ Based on https://github.com/barsoom/banktools-se
 
 ## Usage
 
-Once the package has been installed using `npm`, using the module is very simple. At the moment, the module includes an `luhn` object that exposes a single method, `validate`. `validate` accepts a single string parameter that represents the credit card number.
+Once the package has been installed using `npm`, using the module is very simple.
+At the moment, the module exposes a single method, `checkBankgiro`. `checkBankgiro` accepts a single string parameter that represents the Bankgiro number.
 
 #### Node.js
 
