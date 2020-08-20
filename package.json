@@ -1,0 +1,35 @@
+{
+  "name": "se-check-bankgiro",
+  "version": "1.0.0",
+  "description": "Validate swedish Bankgiro account numbers",
+  "main": "./src/check-bankgiro.js",
+  "scripts": {
+    "test": "jest test"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lendai/node-se-check-bankgiro.git"
+  },
+  "keywords": [
+    "Bankgiro",
+    "Bank",
+    "Sweden",
+    "Finans",
+    "Finance"
+  ],
+  "author": "Daniel Mauno Pettersson <daniel@mauno.io> (http://mauno.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lendai/node-se-check-bankgiro/issues"
+  },
+  "homepage": "https://github.com/lendai/node-se-check-bankgiro#readme",
+  "devDependencies": {
+    "jest": "^26.4.1"
+  },
+  "dependencies": {
+    "luhn": "^2.4.1"
+  }
+}
