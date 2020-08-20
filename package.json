@@ -1,6 +1,6 @@
 {
   "name": "se-check-bankgiro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validate swedish Bankgiro account numbers",
   "main": "./src/check-bankgiro.js",
   "scripts": {
